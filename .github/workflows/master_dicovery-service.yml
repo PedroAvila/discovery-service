@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'dicovery-service'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2C9A1902E7F04B80B878CEB5A9CA3176 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF674C4BD77848218AA89F8CB260368D }}
           package: '*.jar'
